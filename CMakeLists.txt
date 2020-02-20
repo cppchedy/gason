@@ -16,5 +16,4 @@ link_libraries(gasonmem)
 
 add_executable(test-suite src/test-suite.cpp)
 add_executable(gasonpp src/pretty-print.cpp)
-add_executable(benchmark src/benchmark.cpp)
-target_include_directories(benchmark PRIVATE rapidjson/include)
+
